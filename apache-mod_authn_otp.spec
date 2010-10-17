@@ -5,8 +5,8 @@
 
 Summary:	Apache module for one-time password authentication
 Name:		apache-%{mod_name}
-Version:	1.1.0
-Release: 	%mkrel 3
+Version:	1.1.1
+Release: 	%mkrel 1
 Group:		System/Servers
 License:	Apache License
 URL:		http://code.google.com/p/mod-authn-otp/
@@ -92,7 +92,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc CHANGES LICENSE README TODO users.sample
+%doc CHANGES LICENSE README users.sample
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
 %{_bindir}/otptool
