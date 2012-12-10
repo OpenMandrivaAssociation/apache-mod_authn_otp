@@ -98,3 +98,37 @@ rm -rf %{buildroot}
 %{_bindir}/otptool
 %{_mandir}/man1/otptool.1*
 
+
+
+%changelog
+* Sat Feb 11 2012 Oden Eriksson <oeriksson@mandriva.com> 1.1.1-4mdv2012.0
++ Revision: 772567
+- rebuild
+
+* Tue May 24 2011 Oden Eriksson <oeriksson@mandriva.com> 1.1.1-3
++ Revision: 678277
+- mass rebuild
+
+* Sun Oct 24 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.1-2mdv2011.0
++ Revision: 587935
+- rebuild
+
+* Sun Oct 17 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.1-1mdv2011.0
++ Revision: 586376
+- 1.1.1
+
+* Fri Apr 23 2010 Funda Wang <fwang@mandriva.org> 1.1.0-3mdv2010.1
++ Revision: 538081
+- rebuild
+
+* Mon Mar 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.0-2mdv2010.1
++ Revision: 516063
+- rebuilt for apache-2.2.15
+
+* Sat Dec 26 2009 Oden Eriksson <oeriksson@mandriva.com> 1.1.0-1mdv2010.1
++ Revision: 482529
+- import apache-mod_authn_otp
+
+
+* Sat Dec 26 2009 Oden Eriksson <oeriksson@mandriva.com> 1.1.0-1mdv2010.0
+- initial Mandriva package
