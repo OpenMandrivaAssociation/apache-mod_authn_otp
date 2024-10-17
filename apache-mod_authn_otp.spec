@@ -9,7 +9,7 @@ Version:	1.1.1
 Release: 	5
 Group:		System/Servers
 License:	Apache License
-URL:		http://code.google.com/p/mod-authn-otp/
+URL:		https://code.google.com/p/mod-authn-otp/
 Source0:	http://mod-authn-otp.googlecode.com/files/%{mod_name}-%{version}.tar.gz
 Source1:	%{mod_conf}
 Patch0:		mod_authn_otp-1.1.0-no_funky_cflags.diff
