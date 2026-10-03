@@ -50,7 +50,9 @@ sh autogen.sh
 %make_build
 
 %install
-%make_install
+# install-exec-hook strips the module and the otp tools. find-debuginfo
+# then extracts nothing and rpm rejects the empty debugsource file list.
+%make_install STRIP=/bin/true
 mkdir -p %{buildroot}%{_libdir}/apache-extramodules
 mkdir -p %{buildroot}%{_sysconfdir}/httpd/modules.d
 # Keep the historical extramodules path the modules.d snippet loads.
